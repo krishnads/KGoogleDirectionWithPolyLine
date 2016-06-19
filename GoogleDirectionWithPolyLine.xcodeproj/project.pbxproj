@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100A29F85299BA1F47B3ACDB /* libPods-GoogleDirectionWithPolyLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB23C5E203188B04C54C06C3 /* libPods-GoogleDirectionWithPolyLine.a */; };
+		323936211D0ECCB5000EDABC /* GMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323936201D0ECCB5000EDABC /* GMapViewController.m */; };
+		323CF7CB1D0EC296007E57E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 323CF7CA1D0EC296007E57E6 /* GoogleService-Info.plist */; };
+		3250555B1D0EBDE70095CB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250555A1D0EBDE70095CB82 /* main.m */; };
+		3250555E1D0EBDE70095CB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250555D1D0EBDE70095CB82 /* AppDelegate.m */; };
+		325055611D0EBDE70095CB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325055601D0EBDE70095CB82 /* ViewController.m */; };
+		325055641D0EBDE70095CB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325055621D0EBDE70095CB82 /* Main.storyboard */; };
+		325055661D0EBDE70095CB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325055651D0EBDE70095CB82 /* Assets.xcassets */; };
+		325055691D0EBDE70095CB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325055671D0EBDE70095CB82 /* LaunchScreen.storyboard */; };
+		325055741D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 325055731D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.m */; };
+		3250557F1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250557E1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.m */; };
+		3DF84EFE241203F069F373C5 /* libPods-GoogleDirectionWithPolyLineUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E6011FC0A697998EB2A095 /* libPods-GoogleDirectionWithPolyLineUITests.a */; };
+		860A65CD5C8A9BE509AEFA28 /* libPods-GoogleDirectionWithPolyLineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E91933E8785B69C0BA2F63 /* libPods-GoogleDirectionWithPolyLineTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		325055701D0EBDE70095CB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3250554E1D0EBDE60095CB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325055551D0EBDE60095CB82;
+			remoteInfo = GoogleDirectionWithPolyLine;
+		};
+		3250557B1D0EBDE70095CB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3250554E1D0EBDE60095CB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325055551D0EBDE60095CB82;
+			remoteInfo = GoogleDirectionWithPolyLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3239361F1D0ECCB5000EDABC /* GMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMapViewController.h; sourceTree = "<group>"; };
+		323936201D0ECCB5000EDABC /* GMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMapViewController.m; sourceTree = "<group>"; };
+		323CF7CA1D0EC296007E57E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		325055561D0EBDE60095CB82 /* GoogleDirectionWithPolyLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDirectionWithPolyLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3250555A1D0EBDE70095CB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3250555C1D0EBDE70095CB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3250555D1D0EBDE70095CB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3250555F1D0EBDE70095CB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		325055601D0EBDE70095CB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		325055631D0EBDE70095CB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325055651D0EBDE70095CB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325055681D0EBDE70095CB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3250556A1D0EBDE70095CB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3250556F1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDirectionWithPolyLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		325055731D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionWithPolyLineTests.m; sourceTree = "<group>"; };
+		325055751D0EBDE70095CB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3250557A1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDirectionWithPolyLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3250557E1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionWithPolyLineUITests.m; sourceTree = "<group>"; };
+		325055801D0EBDE70095CB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E91933E8785B69C0BA2F63 /* libPods-GoogleDirectionWithPolyLineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDirectionWithPolyLineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E6011FC0A697998EB2A095 /* libPods-GoogleDirectionWithPolyLineUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDirectionWithPolyLineUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6020259FF486F4F165A869DE /* Pods-GoogleDirectionWithPolyLineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineUITests/Pods-GoogleDirectionWithPolyLineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		736846AB13178DDB26964187 /* Pods-GoogleDirectionWithPolyLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLine/Pods-GoogleDirectionWithPolyLine.debug.xcconfig"; sourceTree = "<group>"; };
+		7F3A05B7BEE42D9BF8779BB7 /* Pods-GoogleDirectionWithPolyLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineTests/Pods-GoogleDirectionWithPolyLineTests.release.xcconfig"; sourceTree = "<group>"; };
+		960F1AFA047D141CBADAC8AD /* Pods-GoogleDirectionWithPolyLineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineUITests/Pods-GoogleDirectionWithPolyLineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB23C5E203188B04C54C06C3 /* libPods-GoogleDirectionWithPolyLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleDirectionWithPolyLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C5CCB812095AF7D6E607E3 /* Pods-GoogleDirectionWithPolyLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLine.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLine/Pods-GoogleDirectionWithPolyLine.release.xcconfig"; sourceTree = "<group>"; };
+		F5C7380D220E5E962552BDDE /* Pods-GoogleDirectionWithPolyLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionWithPolyLineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineTests/Pods-GoogleDirectionWithPolyLineTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325055531D0EBDE60095CB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100A29F85299BA1F47B3ACDB /* libPods-GoogleDirectionWithPolyLine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250556C1D0EBDE70095CB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860A65CD5C8A9BE509AEFA28 /* libPods-GoogleDirectionWithPolyLineTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325055771D0EBDE70095CB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF84EFE241203F069F373C5 /* libPods-GoogleDirectionWithPolyLineUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3250554D1D0EBDE60095CB82 = {
+			isa = PBXGroup;
+			children = (
+				325055581D0EBDE70095CB82 /* GoogleDirectionWithPolyLine */,
+				325055721D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests */,
+				3250557D1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests */,
+				325055571D0EBDE60095CB82 /* Products */,
+				CCD294796F8C3B5013144EDB /* Pods */,
+				C341E9DB0CB16B7F3F767594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		325055571D0EBDE60095CB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325055561D0EBDE60095CB82 /* GoogleDirectionWithPolyLine.app */,
+				3250556F1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.xctest */,
+				3250557A1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325055581D0EBDE70095CB82 /* GoogleDirectionWithPolyLine */ = {
+			isa = PBXGroup;
+			children = (
+				3250555C1D0EBDE70095CB82 /* AppDelegate.h */,
+				3250555D1D0EBDE70095CB82 /* AppDelegate.m */,
+				3250555F1D0EBDE70095CB82 /* ViewController.h */,
+				325055601D0EBDE70095CB82 /* ViewController.m */,
+				3239361F1D0ECCB5000EDABC /* GMapViewController.h */,
+				323936201D0ECCB5000EDABC /* GMapViewController.m */,
+				325055621D0EBDE70095CB82 /* Main.storyboard */,
+				325055651D0EBDE70095CB82 /* Assets.xcassets */,
+				325055671D0EBDE70095CB82 /* LaunchScreen.storyboard */,
+				3250556A1D0EBDE70095CB82 /* Info.plist */,
+				323CF7CA1D0EC296007E57E6 /* GoogleService-Info.plist */,
+				325055591D0EBDE70095CB82 /* Supporting Files */,
+			);
+			path = GoogleDirectionWithPolyLine;
+			sourceTree = "<group>";
+		};
+		325055591D0EBDE70095CB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3250555A1D0EBDE70095CB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		325055721D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				325055731D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.m */,
+				325055751D0EBDE70095CB82 /* Info.plist */,
+			);
+			path = GoogleDirectionWithPolyLineTests;
+			sourceTree = "<group>";
+		};
+		3250557D1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3250557E1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.m */,
+				325055801D0EBDE70095CB82 /* Info.plist */,
+			);
+			path = GoogleDirectionWithPolyLineUITests;
+			sourceTree = "<group>";
+		};
+		C341E9DB0CB16B7F3F767594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB23C5E203188B04C54C06C3 /* libPods-GoogleDirectionWithPolyLine.a */,
+				41E91933E8785B69C0BA2F63 /* libPods-GoogleDirectionWithPolyLineTests.a */,
+				44E6011FC0A697998EB2A095 /* libPods-GoogleDirectionWithPolyLineUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD294796F8C3B5013144EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				736846AB13178DDB26964187 /* Pods-GoogleDirectionWithPolyLine.debug.xcconfig */,
+				F4C5CCB812095AF7D6E607E3 /* Pods-GoogleDirectionWithPolyLine.release.xcconfig */,
+				F5C7380D220E5E962552BDDE /* Pods-GoogleDirectionWithPolyLineTests.debug.xcconfig */,
+				7F3A05B7BEE42D9BF8779BB7 /* Pods-GoogleDirectionWithPolyLineTests.release.xcconfig */,
+				960F1AFA047D141CBADAC8AD /* Pods-GoogleDirectionWithPolyLineUITests.debug.xcconfig */,
+				6020259FF486F4F165A869DE /* Pods-GoogleDirectionWithPolyLineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325055551D0EBDE60095CB82 /* GoogleDirectionWithPolyLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325055831D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLine" */;
+			buildPhases = (
+				F3AA0C0344E3E528D9A25BED /* [CP] Check Pods Manifest.lock */,
+				325055521D0EBDE60095CB82 /* Sources */,
+				325055531D0EBDE60095CB82 /* Frameworks */,
+				325055541D0EBDE60095CB82 /* Resources */,
+				0F4095798E15C1E4C23F0887 /* [CP] Embed Pods Frameworks */,
+				1405AEC7CA1E05D30F973E7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDirectionWithPolyLine;
+			productName = GoogleDirectionWithPolyLine;
+			productReference = 325055561D0EBDE60095CB82 /* GoogleDirectionWithPolyLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3250556E1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325055861D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLineTests" */;
+			buildPhases = (
+				F0B44E4E259F6786A8613941 /* [CP] Check Pods Manifest.lock */,
+				3250556B1D0EBDE70095CB82 /* Sources */,
+				3250556C1D0EBDE70095CB82 /* Frameworks */,
+				3250556D1D0EBDE70095CB82 /* Resources */,
+				502645192D86CA2AB31EEA3A /* [CP] Embed Pods Frameworks */,
+				34C2B6F916B973483202C515 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				325055711D0EBDE70095CB82 /* PBXTargetDependency */,
+			);
+			name = GoogleDirectionWithPolyLineTests;
+			productName = GoogleDirectionWithPolyLineTests;
+			productReference = 3250556F1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		325055791D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325055891D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLineUITests" */;
+			buildPhases = (
+				AB69D924D265D89132F20F5A /* [CP] Check Pods Manifest.lock */,
+				325055761D0EBDE70095CB82 /* Sources */,
+				325055771D0EBDE70095CB82 /* Frameworks */,
+				325055781D0EBDE70095CB82 /* Resources */,
+				892BECF7A5A967C7EB9E9246 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3250557C1D0EBDE70095CB82 /* PBXTargetDependency */,
+			);
+			name = GoogleDirectionWithPolyLineUITests;
+			productName = GoogleDirectionWithPolyLineUITests;
+			productReference = 3250557A1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3250554E1D0EBDE60095CB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Konstant Info Solutions Pvt. Ltd.";
+				TargetAttributes = {
+					325055551D0EBDE60095CB82 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3250556E1D0EBDE70095CB82 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 325055551D0EBDE60095CB82;
+					};
+					325055791D0EBDE70095CB82 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 325055551D0EBDE60095CB82;
+					};
+				};
+			};
+			buildConfigurationList = 325055511D0EBDE60095CB82 /* Build configuration list for PBXProject "GoogleDirectionWithPolyLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3250554D1D0EBDE60095CB82;
+			productRefGroup = 325055571D0EBDE60095CB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325055551D0EBDE60095CB82 /* GoogleDirectionWithPolyLine */,
+				3250556E1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests */,
+				325055791D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325055541D0EBDE60095CB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325055691D0EBDE70095CB82 /* LaunchScreen.storyboard in Resources */,
+				323CF7CB1D0EC296007E57E6 /* GoogleService-Info.plist in Resources */,
+				325055661D0EBDE70095CB82 /* Assets.xcassets in Resources */,
+				325055641D0EBDE70095CB82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250556D1D0EBDE70095CB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325055781D0EBDE70095CB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4095798E15C1E4C23F0887 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirectionWithPolyLine/Pods-GoogleDirectionWithPolyLine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1405AEC7CA1E05D30F973E7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirectionWithPolyLine/Pods-GoogleDirectionWithPolyLine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C2B6F916B973483202C515 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineTests/Pods-GoogleDirectionWithPolyLineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502645192D86CA2AB31EEA3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineTests/Pods-GoogleDirectionWithPolyLineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892BECF7A5A967C7EB9E9246 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDirectionWithPolyLineUITests/Pods-GoogleDirectionWithPolyLineUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB69D924D265D89132F20F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B44E4E259F6786A8613941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AA0C0344E3E528D9A25BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325055521D0EBDE60095CB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325055611D0EBDE70095CB82 /* ViewController.m in Sources */,
+				3250555E1D0EBDE70095CB82 /* AppDelegate.m in Sources */,
+				3250555B1D0EBDE70095CB82 /* main.m in Sources */,
+				323936211D0ECCB5000EDABC /* GMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3250556B1D0EBDE70095CB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325055741D0EBDE70095CB82 /* GoogleDirectionWithPolyLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325055761D0EBDE70095CB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250557F1D0EBDE70095CB82 /* GoogleDirectionWithPolyLineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		325055711D0EBDE70095CB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 325055551D0EBDE60095CB82 /* GoogleDirectionWithPolyLine */;
+			targetProxy = 325055701D0EBDE70095CB82 /* PBXContainerItemProxy */;
+		};
+		3250557C1D0EBDE70095CB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 325055551D0EBDE60095CB82 /* GoogleDirectionWithPolyLine */;
+			targetProxy = 3250557B1D0EBDE70095CB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		325055621D0EBDE70095CB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325055631D0EBDE70095CB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325055671D0EBDE70095CB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325055681D0EBDE70095CB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		325055811D0EBDE70095CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		325055821D0EBDE70095CB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		325055841D0EBDE70095CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736846AB13178DDB26964187 /* Pods-GoogleDirectionWithPolyLine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDirectionWithPolyLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleIntegrationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		325055851D0EBDE70095CB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C5CCB812095AF7D6E607E3 /* Pods-GoogleDirectionWithPolyLine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleDirectionWithPolyLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleIntegrationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		325055871D0EBDE70095CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C7380D220E5E962552BDDE /* Pods-GoogleDirectionWithPolyLineTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleDirectionWithPolyLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleDirectionWithPolyLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDirectionWithPolyLine.app/GoogleDirectionWithPolyLine";
+			};
+			name = Debug;
+		};
+		325055881D0EBDE70095CB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3A05B7BEE42D9BF8779BB7 /* Pods-GoogleDirectionWithPolyLineTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleDirectionWithPolyLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleDirectionWithPolyLineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleDirectionWithPolyLine.app/GoogleDirectionWithPolyLine";
+			};
+			name = Release;
+		};
+		3250558A1D0EBDE70095CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960F1AFA047D141CBADAC8AD /* Pods-GoogleDirectionWithPolyLineUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleDirectionWithPolyLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleDirectionWithPolyLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleDirectionWithPolyLine;
+			};
+			name = Debug;
+		};
+		3250558B1D0EBDE70095CB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6020259FF486F4F165A869DE /* Pods-GoogleDirectionWithPolyLineUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleDirectionWithPolyLineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.GoogleDirectionWithPolyLineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleDirectionWithPolyLine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325055511D0EBDE60095CB82 /* Build configuration list for PBXProject "GoogleDirectionWithPolyLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325055811D0EBDE70095CB82 /* Debug */,
+				325055821D0EBDE70095CB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325055831D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325055841D0EBDE70095CB82 /* Debug */,
+				325055851D0EBDE70095CB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325055861D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325055871D0EBDE70095CB82 /* Debug */,
+				325055881D0EBDE70095CB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325055891D0EBDE70095CB82 /* Build configuration list for PBXNativeTarget "GoogleDirectionWithPolyLineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3250558A1D0EBDE70095CB82 /* Debug */,
+				3250558B1D0EBDE70095CB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3250554E1D0EBDE60095CB82 /* Project object */;
+}
